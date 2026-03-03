@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Orbitron', 'sans-serif'],
+        body: ['Rajdhani', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +61,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        arena: "hsl(var(--arena))",
+        "arena-line": "hsl(var(--arena-line))",
+        "team-a": "hsl(var(--team-a))",
+        "team-b": "hsl(var(--team-b))",
+        ball: "hsl(var(--ball))",
       },
       borderRadius: {
         lg: "var(--radius)",
